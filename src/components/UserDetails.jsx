@@ -10,7 +10,7 @@ const UserDetails = ({ data, setData }) => {
     setData(newData);
   };
 
-  return (
+  return ( 
     <>
       <button className="back-button" onClick={() => navigate("/")}>&larr;</button>
       <div className="list-container">
